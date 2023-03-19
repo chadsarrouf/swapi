@@ -1,5 +1,17 @@
-# Swapi Aptitude Test
+# Running the Swapi App
 
+1. Make sure you have laravel/php, nodejs and composer installed
+2. Clone the repo locally
+3. In the terminal, access the swapi app directory 
+4. Run `composer install` to install php dependencies
+5. Run `npm install` to install js dependencies. *You may get some package conflicts due to the Vite package. If so, run `npm install --force` to fix it.
+6. Run `php artisan serve` to start the dev server
+7. Run `npm run dev` to start the frontend build
+8. Open `http://127.0.0.1:8000/` in your browser, the app should be running.
+
+
+
+# Test Instructions
 
 
 With the use of the provided API endpoint, create an application to present the user with
